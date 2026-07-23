@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Switcher</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+   .dark-mode {
+    background-color: #1f2937 !important;
+    color: white !important;
+}
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen transition-all duration-300">
+
+  <div class="text-center">
+    <h1 class="text-3xl font-bold mb-4">Theme Switcher</h1>
+    <p class="mb-6">Click the button to switch between Light and Dark Mode.</p>
+
+    <button id="themeBtn"
+      class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+      Toggle Theme
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
