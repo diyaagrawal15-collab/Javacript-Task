@@ -17,21 +17,8 @@ This repository contains simple JavaScript projects for learning DOM manipulatio
 - Built using HTML, CSS, and JavaScript.
 
 ## Technologies Used
-- HTML5
+- HTML
 - CSS
 - JavaScript 
 
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Javascript-Task.git
-   ```
-
-2. Open the project folder.
-
-3. Open `index.html` in any web browser.
-
-## Author
-
-Created by **Your Name**
+Created by **Diya Agrawal**
