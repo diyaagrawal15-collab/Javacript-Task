@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>color-palette</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Switcher</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+   .dark-mode {
+    background-color: #1f2937 !important;
+    color: white !important;
+}
+  </style>
 </head>
-<body id="page" class="min-h-screen flex flex-col items-center justify-center gap-6 transition-all duration-500">
-    <h1 id="heading" class="text-3x1 font-bold">color-palette!</h1>
-    <div class="flex gap-4">
-        <button id="redbtn" class="bg-red-500 text-white px-6 py-3 rounded-lg font-bold hover:scale-110 transition-all">Red</button>
-        <button id="bluebtn" class="bg-blue-500 text-white px-6 py-3 rounded-lg font-bold hover:scale-110 transition-all">Blue</button>
-        <button id="greenbtn" class="bg-green-500 text-white px-6 py-3 rounded-lg font-bold hover:scale-110 transition-all">Green</button>
-        <button id="purplebtn" class="bg-purple-500 text-white px-6 py-3 rounded-lg font-bold hover:scale-110 transition-all">Purple</button>
-    </div>
-    <button id="resetbtn" class="bg-gray-300 text-gray px-6 py-3 rounded-lg font-bold hover:scale-110 transition-all">Reset</button>
-    <script src="main.js"></script>
+<body class="flex items-center justify-center min-h-screen transition-all duration-300">
+
+  <div class="text-center">
+    <h1 class="text-3xl font-bold mb-4">Theme Switcher</h1>
+    <p class="mb-6">Click the button to switch between Light and Dark Mode.</p>
+
+    <button id="themeBtn"
+      class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+      Toggle Theme
+    </button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
